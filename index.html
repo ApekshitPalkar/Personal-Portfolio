@@ -181,6 +181,49 @@
             <p class="project-disclosure">Educational prototype only. Rates and tax are illustrative; use fictional data, not real patient information. Some implementation, restructuring and documentation were AI-assisted. My hands-on contributions included the original Enter-key navigation idea, project requirements, Fedora/MariaDB setup and SQL verification.</p>
           </div>
         </article>
+        <article class="project-card iot-project-card" aria-labelledby="iot-project-title">
+          <div class="project-visual iot-project-visual" aria-label="Concept diagram showing simulated input, ESP32 threshold logic and local alert outputs">
+            <div class="project-visual-top"><span>PROJECT / 002</span><span>CLASSROOM DEMO</span></div>
+            <div class="iot-flow">
+              <div class="iot-flow-step">
+                <span class="iot-step-index">01 / INPUT</span>
+                <strong>POTENTIOMETER</strong>
+                <small>Simulated analogue value</small>
+              </div>
+              <div class="iot-flow-arrow" aria-hidden="true">↓</div>
+              <div class="iot-flow-step iot-flow-core">
+                <span class="iot-step-index">02 / CONTROL</span>
+                <strong>ESP32</strong>
+                <small>Read input · compare threshold</small>
+              </div>
+              <div class="iot-flow-arrow" aria-hidden="true">↓</div>
+              <div class="iot-output-grid">
+                <div><span>03A / VISUAL</span><strong>RED LED</strong></div>
+                <div><span>03B / AUDIO</span><strong>BUZZER</strong></div>
+              </div>
+              <p class="iot-flow-footnote">SIMULATED INPUT — NOT A RADIATION DETECTOR</p>
+            </div>
+            <div class="project-visual-bottom"><span>NO RADIATION MEASUREMENT</span><span>ESP32 / IOT</span></div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>02 / TEAM-BASED IOT CONCEPT</span><span class="project-status">CONCEPT DOCUMENTED</span></div>
+            <h3 id="iot-project-title">Radiation Exposure Monitoring &amp; Alert Concept</h3>
+            <p class="project-summary">A student team concept exploring additional alerting for ionising-radiation work areas. The classroom demonstration used an ESP32 and a potentiometer to simulate changing sensor input; threshold logic activated a red LED and buzzer.</p>
+            <div class="project-feature-heading">WHAT THE DEMONSTRATION SHOWS</div>
+            <ul class="project-features">
+              <li>Reads a manually adjustable analogue value from a potentiometer.</li>
+              <li>Uses the ESP32 to compare the simulated input with a configured threshold.</li>
+              <li>Triggers a red LED and buzzer as local visual and audible alerts.</li>
+              <li>Documents future possibilities such as a suitable radiation detector and a supervisor dashboard; these were not part of the demonstrated build.</li>
+            </ul>
+            <div class="project-tags"><span>ESP32</span><span>ARDUINO IDE</span><span>ANALOG INPUT</span><span>LED / BUZZER</span><span>IOT CONCEPT</span></div>
+            <div class="project-actions">
+              <a class="button button-dark" href="https://github.com/ApekshitPalkar/iot-radiation-monitoring-alert-concept" target="_blank" rel="noopener noreferrer">VIEW REPOSITORY <span aria-hidden="true">↗</span></a>
+              <a class="text-link" href="https://github.com/ApekshitPalkar/iot-radiation-monitoring-alert-concept/blob/main/docs/PROJECT_REPORT.md" target="_blank" rel="noopener noreferrer">PROJECT REPORT <span aria-hidden="true">↗</span></a>
+            </div>
+            <p class="project-disclosure">Team-based student concept. I worked on the ESP32 classroom demonstration and hardware learning process. The potentiometer simulated sensor readings; no radiation was detected or measured. A real detector, calibrated measurements and a network dashboard remain proposed future development.</p>
+          </div>
+        </article>
         <div class="work-note"><span class="note-marker">+</span><p>More projects will appear here as they are completed, documented and ready to demonstrate.</p><span class="note-index">NEXT ENTRY / TBD</span></div>
       </section>
 
