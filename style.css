@@ -287,3 +287,74 @@ h1, h2, h3, p { margin-top: 0; }
 }
 
 .project-test-note { width: 100%; margin: -7px 0 13px; color: #777d72 !important; font-size: 8px !important; line-height: 1.6 !important; }
+
+/* IoT radiation-alert concept project visual */
+.project-card + .project-card { margin-top: 28px; }
+.iot-project-visual { background-color: #252d2b; }
+.iot-flow {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  width: min(100%, 330px);
+  margin: 5px auto;
+  gap: 7px;
+}
+.iot-flow-step {
+  display: grid;
+  gap: 3px;
+  padding: 10px 13px;
+  border: 1px solid rgba(233,227,214,.38);
+  background: rgba(233,227,214,.055);
+  text-align: center;
+}
+.iot-step-index, .iot-output-grid span {
+  color: #c79a7d;
+  font: 700 7px var(--mono);
+  letter-spacing: .12em;
+}
+.iot-flow-step strong {
+  color: var(--paper-light);
+  font: 800 19px/1 var(--display);
+  letter-spacing: .015em;
+}
+.iot-flow-step small {
+  color: #c0c4b8;
+  font-size: 9px;
+}
+.iot-flow-core {
+  border-color: rgba(185,107,67,.85);
+  background: rgba(185,107,67,.12);
+}
+.iot-flow-arrow {
+  color: #d39a78;
+  text-align: center;
+  font: 15px/1 var(--mono);
+}
+.iot-output-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+.iot-output-grid div {
+  display: grid;
+  gap: 5px;
+  padding: 11px 8px;
+  border: 1px solid rgba(233,227,214,.38);
+  background: rgba(233,227,214,.055);
+  text-align: center;
+}
+.iot-output-grid strong {
+  color: var(--paper-light);
+  font: 800 17px/1 var(--display);
+}
+.iot-flow-footnote {
+  margin: 3px 0 0;
+  color: #c9c3b4;
+  text-align: center;
+  font: 700 7px var(--mono);
+  letter-spacing: .08em;
+}
+@media (max-width: 650px) {
+  .iot-project-visual { min-height: 330px; }
+  .iot-flow { width: min(100%, 340px); }
+}
