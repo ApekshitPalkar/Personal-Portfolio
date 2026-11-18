@@ -28,7 +28,7 @@ Personal-Portfolio/
 1. **Hero** — introduction, study focus and calls to action.
 2. **About** — short background and approach to learning.
 3. **Skills** — a qualitative skills map. Labels such as Foundations, Basic, Academic and Introductory Literacy are intentionally used instead of unsupported percentage scores.
-4. **Selected Work** — the Hospital Billing Management System project, with a project summary, real repository link and a clearly labelled illustrative receipt based on fictional test values.
+4. **Selected Work** — the Hospital Billing Management System and the IoT Radiation Exposure Monitoring & Alert Concept, each with a project summary and a link to its public repository and documentation.
 5. **Learning Record** — course credentials currently listed in my resume. Provider names, dates and credential links can be added after verification.
 6. **Contact** — email and GitHub profile links.
 
@@ -63,7 +63,7 @@ Then open `http://localhost:8000`.
 
 The site does not depend on JavaScript for its core content or navigation.
 
-## Featured project: Hospital Billing Management System
+## Project 1: Hospital Billing Management System
 
 This is an educational Java desktop application built with Java AWT, JDBC, MariaDB, Maven and SQL. It handles fictional patient details, sample billing calculations, input validation, saving and retrieving billing records, and keyboard focus navigation.
 
@@ -74,6 +74,15 @@ The project reports 22 automated billing-service validation checks and a GitHub 
 **Important:** This is a student educational prototype, not production hospital software. Ward/procedure amounts and tax values are illustrative, not actual hospital rates or statutory GST. Do not enter real patient information. The portfolio's receipt graphic is an illustration based on a documented fictional sample calculation; it is not a screenshot of the application.
 
 Parts of the project's implementation, restructuring and documentation were AI-assisted. My hands-on contributions included the original Enter-key navigation idea, project requirements, Fedora/MariaDB setup, schema configuration, running the application and verifying saved records using SQL. The portfolio describes these contributions rather than claiming that every line was independently authored.
+
+## Project 2: IoT Radiation Exposure Monitoring & Alert Concept
+
+This is a team-based student concept documented as a classroom demonstration using an ESP32, a potentiometer to simulate changing analogue input, and a red LED plus buzzer for threshold alerts.
+
+**Demonstration scope:** The potentiometer simulated sensor readings. No radiation was detected or measured, and no calibrated radiation detector or radioactive source was used. A suitable detector, calibrated measurements and a supervisor dashboard are future development ideas, not completed features. The concept is framed around ionising-radiation work areas; MRI uses a different safety approach.
+
+- **Repository:** https://github.com/ApekshitPalkar/iot-radiation-monitoring-alert-concept
+- **Project report:** https://github.com/ApekshitPalkar/iot-radiation-monitoring-alert-concept/blob/main/docs/PROJECT_REPORT.md
 
 ## Deployment with GitHub Pages
 
